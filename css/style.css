@@ -1,0 +1,470 @@
+/* PALETA DE COLORES -------
+#000000 (NEGRO)
+#222222 (GRIS)
+#1DCD9F (VERDECLARO)
+#169976 (VERD+TONO)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
+/* -------------- HEADER */
+
+header{
+    background-color:#000000;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.logo{
+    width: 60px;
+    border-radius: 50px;
+}
+
+.nav-link {
+  color: #dcdcdc !important;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #169976 !important;
+}
+
+
+
+/*  --------- MAIN */
+
+/* Estilos del Titulo (MAIN) */
+
+
+
+.contenedorIndex{
+    background-image: url(../imagenes/background-img.jpg);
+   
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloAduana{ 
+    color: black;
+    font-size: 7.8rem;
+    margin-left: 200px;
+    padding-top: 300px;
+    font-family: "Momo Signature", cursive;  
+}
+.tituloHouse{
+    color: black;
+    font-size: 7.8rem;
+    margin-left: 500px;
+    font-family: serif;
+    line-height: 0.7;
+    font-family: "Momo Signature", cursive;
+    
+}
+
+/* ---------- */
+
+.sectionIndex{
+    background-color: #222222;
+    color: rgb(174, 177, 179);
+    padding: 50px;
+    font-size: 1.3rem;
+    
+}
+.texto1{
+    color: rgb(174, 177, 179) ;
+    padding-left: 20px;
+    line-height: 1.0;
+    
+}
+.imgflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+.imgflex img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: rgb(239, 239, 244);
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: #222222 ;
+    margin: 0;
+    padding: 0;
+    display: flow-root;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.ultimg{
+    display: block;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+
+
+/* MAIN CONTACTO */
+
+body {
+  background-color: #1b1b1b;
+  color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactMain {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding: 40px 20px;
+}
+
+.contactMain h1 {
+  font-size: 2.3rem;
+  padding-top: 60px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family:  "Momo Signature", cursive;
+}
+
+.contactMain p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+/* FORMULARIO */
+.contactForm {
+  width: 100%;
+  max-width: 460px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  display: grid;
+  gap: 15px;
+  text-align: left;
+}
+
+.contactForm label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #5c5c5c;
+  font-size: 1rem;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #bfbfbf;
+}
+
+.contactForm button {
+  margin-top: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #00b894;
+  color: #0f0f0f;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contactForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.contactForm .legal {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+/* MAIN SUCURSALES */
+
+.titulosMain{
+    margin-top: 50px;
+   font-family: "Momo Signature", cursive;
+}
+
+
+.sucurMain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #222222;
+  text-align: center;
+  padding: 60px 5%;
+}
+
+.sucurMain h1 {
+  font-size: 3rem;
+  color: #fafbfa;
+}
+
+.sucurMain h2 {
+  font-size: 2.5rem;
+  color: #919191;
+  margin-bottom: 50px;
+}
+
+/* BLOQUES */
+.bloque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.bloque.reverse {
+  flex-direction: row-reverse;
+}
+
+/* CARRUSELES */
+.carousel {
+  width: 70%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* TEXTO */
+.texto {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.texto h3 {
+  color: #169976;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  color: #626262;
+  line-height: 1.0;
+}
+
+
+/* FOOTER */
+
+.wsp{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  border-radius: 50%;
+  width: 48px;
+  aspect-ratio: 1 / 1;
+  margin: 10px;
+}
+
+
+footer {
+  background-color: #169976;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+
+}
+
+footer a {
+  color: #f2b632;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social {
+  margin-top: 8px;
+}
+
+footer .social img {
+  margin: 0 5px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+  width: 25px;
+}
+
+footer .social img:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* RESPONSIVE */
+
+/* MOBILE---------- */
+@media only screen and (max-width: 480px) {
+
+  .logo{
+    width: 50px;
+  }
+
+  /* TITULO INDEX------ */
+  .contenedorIndex{
+    height: 500px;
+  }
+  .tituloAduana{
+    font-size: 4.0rem;
+    margin-left: 70px;
+    padding-top: 170px;
+  }
+  .tituloHouse{
+    font-size: 3.0rem;
+    margin-left: 220px;
+  }
+
+  /* PARRAFO INDEX */
+  .texto1{
+    line-height: 1.0;
+  }
+  
+  /* IMAGENES INDEX */
+  
+  .imgflex{
+    display: flex;
+    justify-content: center;
+
+  }
+  .imgflex img{
+    width: 125px;
+  }
+
+  .ultimg{
+    width: 80%;
+
+  }
+
+
+  /* SUCURSALES */
+  
+  .sucurMain h1{
+    font-size: 2.0rem;
+  }
+
+  .sucurMain h2{
+    font-size: 1.5rem ;
+  }
+
+  .bloque{
+    display: flex ;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 12px;
+    width: 100% ;
+    max-width: 100% ;
+    
+  }  
+
+  .texto{
+    width: 100%;
+  }
+
+  .bloque .carousel-item img{
+    width: 100% !important;
+    height: 250px;           
+    object-fit: cover;
+    display: block;
+  }
+}
+
+/* TABLETS */
+@media only screen and (min-width: 481px ) and (max-width: 978px){
+ 
+  /* TITULO INDEX */
+  .tituloAduana{
+      font-size: 7.0rem;
+      margin-left: 100px;
+  }
+  .tituloHouse{
+    font-size: 6.0rem;
+    margin-left: 350px;
+  }
+  .texto1{
+    line-height: 1.0;
+  }
+  .imgflex img{
+    width:200px ;
+  }
+  .ultimg{
+    width: 80%;
+  }
+
+  /*  SUCURSALES T  */
+
+  .sucurMain h1{
+    font-size: 2.5rem;
+  }
+  .sucurMain h2{
+    font-size: 2.0rem;
+  }
+
+
+}
