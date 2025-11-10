@@ -308,6 +308,10 @@ body {
   line-height: 1.0;
 }
 
+.textomobile{
+  display: none;
+}
+
 
 /* FOOTER */
 
@@ -396,9 +400,13 @@ footer .social img:hover {
   .imgflex img{
     width: 125px;
   }
+  /* No mostrar imagen central */
+  .desayunoimg{
+    display: none;
+  }
 
   .ultimg{
-    width: 80%;
+    width: 90%;
 
   }
 
@@ -432,6 +440,10 @@ footer .social img:hover {
     height: 250px;           
     object-fit: cover;
     display: block;
+  }
+
+  .textomobile{
+    display:block;
   }
 }
 
