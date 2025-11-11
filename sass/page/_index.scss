@@ -1,0 +1,114 @@
+
+
+@use "../genereles/variables" as*;
+
+// comando para usar un parshal dentro de otros (as*)
+
+
+// INDEX
+/* -------------- HEADER */
+
+body{
+    background-color: $blanco;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    // HEADER
+    header{
+        background-color: $negro;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        nav{
+            div{
+                .logo{
+                    width: 60px;
+                    border-radius: 50px;      
+                }
+                div{
+                    .nav{
+                        .nav-link{
+                            color: $blanco;
+                            font-size: 1.2rem;
+                        }    
+                        .nav-link:hover {
+                            color: $verdemast;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        main{
+            background-color: $gris ;
+            margin: 0;
+            padding: 0;
+            display: flow-root;
+            flex: 1;
+    
+            .contenedorIndex{
+                background-image: url(../imagenes/background-img.jpg);
+                height: 900px;
+                background-size: cover;
+                background-position: center;
+                    .tituloHouse{
+                        color: $negro;
+                        font-size: 7.8rem;
+                        margin-left: 500px;
+                        font-family: serif;
+                        line-height: 0.7;
+                        font-family: "Momo Signature", cursive;
+                    }
+                    .tituloAduana{ 
+                        color: $negro;
+                        font-size: 7.8rem;
+                        margin-left: 200px;
+                        padding-top: 300px;
+                        font-family: "Momo Signature", cursive;  
+                    }
+            }
+
+            .sectionIndex{
+                background-color: $grisindex;
+                color: $blanco;
+                padding: 50px;
+                font-size: 1.3rem;
+                .texto1{
+                    color: $blanco ;
+                    padding-left: 20px;
+                    line-height: 1.0;
+                }
+                div{
+                    
+                    .imgflex{
+                        display: flex;
+                        justify-content: space-evenly;
+                        margin: 40px;
+                        img{
+                            width: 350px;
+                            border-radius: 20px;
+                        }
+                    }
+                    .contenedor{
+                        display: flex;
+                        justify-content: center;
+                        .ultimg{
+                            display: block;
+                            width: 40%;
+                            object-fit: cover;
+                            border-radius: 20px;
+                            margin: 30px;
+                        }
+                    }
+                    .textomobile{
+                        display: none;
+                    } 
+                }
+            }
+        }   
+     
+}

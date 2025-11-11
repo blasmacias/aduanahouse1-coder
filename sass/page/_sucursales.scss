@@ -1,0 +1,63 @@
+
+@use "../genereles/variables" as*;
+
+// comando para usar un parshal dentro de otros (as*)
+
+
+// MAIN Sucursales
+/* MAIN SUCURSALES */
+
+.sucurMain{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $grisindex;
+    text-align: center;
+    padding: 60px 5%;
+    .titulosMain{
+        margin-top: 50px;
+        font-family: "Momo Signature", cursive;
+        h1{
+            font-size: 3rem;
+            color: $blanco;
+        }
+        h2{
+            font-size: 2.5rem;
+            color: $grisclaro;
+            margin-bottom: 50px;
+        }
+    }
+    .bloque{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 80px;
+        .texto{
+            width: 40%;
+            background-color: $blanco;
+            padding: 20px;
+            border-radius: 15px;               
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: left;
+            h3{
+                color: $verdeclaro;                   
+                margin-bottom: 10px;
+            }
+            p{
+                color: $gris;
+                line-height: 1.0;                 
+           }
+        }
+        .carousel{
+            width: 70%;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            img{
+                width: 220px;
+            }
+        }
+    
+    }
+   
+}

@@ -1,0 +1,495 @@
+/*GENERALES*/
+@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap");
+/* -------------- HEADER */
+body {
+  background-color: #dcdcdc;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body header {
+  background-color: #000000;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+body header nav div .logo {
+  width: 60px;
+  border-radius: 50px;
+}
+body header nav div div .nav .nav-link {
+  color: #dcdcdc;
+  font-size: 1.2rem;
+}
+body header nav div div .nav .nav-link:hover {
+  color: #169976;
+}
+body main {
+  background-color: #323232;
+  margin: 0;
+  padding: 0;
+  display: flow-root;
+  flex: 1;
+}
+body main .contenedorIndex {
+  background-image: url(../imagenes/background-img.jpg);
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+}
+body main .contenedorIndex .tituloHouse {
+  color: #000000;
+  font-size: 7.8rem;
+  margin-left: 500px;
+  font-family: serif;
+  line-height: 0.7;
+  font-family: "Momo Signature", cursive;
+}
+body main .contenedorIndex .tituloAduana {
+  color: #000000;
+  font-size: 7.8rem;
+  margin-left: 200px;
+  padding-top: 300px;
+  font-family: "Momo Signature", cursive;
+}
+body main .sectionIndex {
+  background-color: #252525;
+  color: #dcdcdc;
+  padding: 50px;
+  font-size: 1.3rem;
+}
+body main .sectionIndex .texto1 {
+  color: #dcdcdc;
+  padding-left: 20px;
+  line-height: 1;
+}
+body main .sectionIndex div .imgflex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+body main .sectionIndex div .imgflex img {
+  width: 350px;
+  border-radius: 20px;
+}
+body main .sectionIndex div .contenedor {
+  display: flex;
+  justify-content: center;
+}
+body main .sectionIndex div .contenedor .ultimg {
+  display: block;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px;
+}
+body main .sectionIndex div .textomobile {
+  display: none;
+}
+
+/* MAIN SUCURSALES */
+.sucurMain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #252525;
+  text-align: center;
+  padding: 60px 5%;
+}
+.sucurMain .titulosMain {
+  margin-top: 50px;
+  font-family: "Momo Signature", cursive;
+}
+.sucurMain .titulosMain h1 {
+  font-size: 3rem;
+  color: #dcdcdc;
+}
+.sucurMain .titulosMain h2 {
+  font-size: 2.5rem;
+  color: #7b7a7a;
+  margin-bottom: 50px;
+}
+.sucurMain .bloque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.sucurMain .bloque .texto {
+  width: 40%;
+  background-color: #dcdcdc;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.sucurMain .bloque .texto h3 {
+  color: #1DCD9F;
+  margin-bottom: 10px;
+}
+.sucurMain .bloque .texto p {
+  color: #323232;
+  line-height: 1;
+}
+.sucurMain .bloque .carousel {
+  width: 70%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.sucurMain .bloque .carousel img {
+  width: 220px;
+}
+
+/* MAIN CONTACTO */
+.contactMain {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding: 40px 20px;
+}
+.contactMain h1 {
+  font-size: 2.3rem;
+  padding-top: 60px;
+  margin-bottom: 5px;
+  color: #dcdcdc;
+  font-family: "Momo Signature", cursive;
+}
+.contactMain p {
+  color: #dcdcdc;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+.contactMain {
+  /* FORMULARIO */
+}
+.contactMain .contactForm {
+  width: 100%;
+  max-width: 460px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  display: grid;
+  gap: 15px;
+  text-align: left;
+}
+.contactMain .contactForm label {
+  color: #7b7a7a;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.contactMain .contactForm input, .contactMain .contactForm select, .contactMain .contactForm textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #323232;
+  color: #7b7a7a;
+  font-size: 1rem;
+}
+.contactMain .contactForm button {
+  margin-top: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #1DCD9F;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contactMain .contactForm input::placeholder, .contactMain .contactForm textarea::placeholder {
+  color: #7b7a7a;
+}
+.contactMain .contactForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  background-color: #000000;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+header nav div .logo {
+  width: 60px;
+  border-radius: 50px;
+}
+header nav div div .nav .nav-link {
+  color: #dcdcdc;
+  font-size: 1.2rem;
+}
+header nav div div .nav .nav-link:hover {
+  color: #169976;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #169976;
+  color: #dcdcdc;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+.footer .wsp {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  border-radius: 50%;
+  width: 48px;
+  aspect-ratio: 1/1;
+  margin: 10px;
+}
+.footer a {
+  color: #f2b632;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .social img {
+  margin: 0 5px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+  width: 25px;
+}
+.footer .social img:hover {
+  transform: scale(1.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*MQ----------*/
+/* MOBILE---------- */
+@media only screen and (max-width: 480px) {
+  body header .logo {
+    width: 50px;
+  }
+  body {
+    /* TITULO INDEX------ */
+  }
+  body main .contenedorIndex {
+    height: 500px;
+  }
+  body main .contenedorIndex .tituloAduana {
+    font-size: 4rem;
+    margin-left: 70px;
+    padding-top: 170px;
+  }
+  body main .contenedorIndex .tituloHouse {
+    font-size: 3.5rem;
+    margin-left: 190px;
+  }
+  body main .sectionIndex .texto1 {
+    line-height: 1;
+  }
+  body main .sectionIndex div .imgflex {
+    display: flex;
+    justify-content: center;
+  }
+  body main .sectionIndex div .imgflex img {
+    width: 125px;
+  }
+  body main .sectionIndex div .imgflex .foto1index {
+    display: none;
+  }
+  body main .sectionIndex div .imgflex .foto2index {
+    display: none;
+  }
+  body main .sectionIndex div .contenedor .ultimg {
+    width: 90%;
+  }
+  body main .sectionIndex div .textomobile {
+    display: block;
+  }
+  body main {
+    /* SUCURSALES*/
+  }
+  body main .sucurMain .titulosMain h1 {
+    font-size: 2rem;
+  }
+  body main .sucurMain .titulosMain h2 {
+    font-size: 1.5rem;
+  }
+  body main .sucurMain {
+    /* ---------- BLOQUE ---------- */
+  }
+  body main .sucurMain .bloque {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Cada bloque tiene un carousel */
+  }
+  body main .sucurMain .bloque .carousel {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  body main .sucurMain .bloque .carousel .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  body main .sucurMain .bloque .carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  body main .sucurMain .bloque .carousel .carousel-item img.ftocarrusel {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 20px;
+  }
+  body main .sucurMain .bloque .texto {
+    width: 100%;
+    text-align: center;
+  }
+  body main .sucurMain .bloque .texto h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  body main .sucurMain .bloque .texto p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+}
+/*tabletsss*/
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+  body header .logo {
+    width: 60px;
+  }
+  body main .contenedorIndex {
+    height: 600px;
+  }
+  body main .contenedorIndex .tituloAduana {
+    font-size: 5.5rem;
+    margin-left: 150px;
+    padding-top: 200px;
+  }
+  body main .contenedorIndex .tituloHouse {
+    font-size: 4.5rem;
+    margin-left: 390px;
+  }
+  body main .sectionIndex .texto1 {
+    line-height: 1;
+  }
+  body main .sectionIndex div .imgflex {
+    display: flex;
+    justify-content: center;
+  }
+  body main .sectionIndex div .imgflex img {
+    width: 180px;
+  }
+  body main .sectionIndex div .imgflex .foto1index {
+    display: none;
+  }
+  body main .sectionIndex div .contenedor .ultimg {
+    width: 70%;
+  }
+  body main .sectionIndex div .textomobile {
+    display: block;
+  }
+  body main {
+    /* SUCURSALES*/
+  }
+  body main .sucurMain .titulosMain h1 {
+    font-size: 3rem;
+  }
+  body main .sucurMain .titulosMain h2 {
+    font-size: 2.5rem;
+  }
+  body main {
+    /* ---------- BLOQUE ---------- */
+  }
+  body main .bloque {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row; /* pasa de columna a fila */
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background: #323232;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  body main .bloque:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  body main .bloque {
+    /* Carousel */
+  }
+  body main .bloque .carousel {
+    flex: 1;
+    height: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  body main .bloque .carousel .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  body main .bloque .carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  body main .bloque .carousel .carousel-item img.ftocarrusel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+  }
+  body main .bloque {
+    /* Texto */
+  }
+  body main .bloque .texto {
+    flex: 1;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  body main .bloque .texto h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #169976;
+  }
+  body main .bloque .texto p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000000;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

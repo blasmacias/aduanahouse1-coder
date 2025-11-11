@@ -1,0 +1,72 @@
+
+@use "../genereles/variables" as*;
+
+// comando para usar un parshal dentro de otros (as*)
+
+  // HEADER
+
+    header{
+        background-color: $negro;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        nav{
+            div{
+                .logo{
+                    width: 60px;
+                    border-radius: 50px;      
+                }
+                div{
+                    .nav{
+                        .nav-link{
+                            color: $blanco;
+                            font-size: 1.2rem;
+                        }    
+                        .nav-link:hover {
+                            color: $verdemast;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+// FOOTER
+/* FOOTER */
+
+.footer{
+    background-color: $verdemast;
+    color: $blanco;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    .wsp{
+        position: fixed;
+        right: 16px;
+        bottom: 16px;
+        border-radius: 50%;
+        width: 48px;
+        aspect-ratio: 1 / 1;
+        margin: 10px;
+    }
+    a{
+        color: $naranja;
+        text-decoration: none;
+        margin: 0 5px; 
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .social{
+        img{
+            margin: 0 5px;
+            vertical-align: middle;
+            transition: transform 0.2s;
+            width: 25px;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,81 @@
+
+@use "../genereles/variables" as*;
+
+// comando para usar un parshal dentro de otros (as*)
+
+// MAIN CONTACTO
+/* MAIN CONTACTO */
+
+.contactMain{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    padding: 40px 20px;
+    h1{
+        font-size: 2.3rem;
+        padding-top: 60px;
+        margin-bottom: 5px;
+        color: $blanco;
+        font-family: $font; 
+    }
+    p{
+        color: $blanco;
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+             // FORMULARIO
+            /* FORMULARIO */
+
+    .contactForm {
+        width: 100%;
+        max-width: 460px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 30px 25px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        display: grid;
+        gap: 15px;
+        text-align: left;
+        label{
+            color: $grisclaro;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+        input, select, textarea{
+            width: 100%;
+            padding: 12px 14px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            background: $gris;
+            color: $grisclaro;
+            font-size: 1rem;  
+
+        }
+        button{
+            margin-top: 10px;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 10px;
+            background: $verdeclaro;
+            color: $negro;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        input::placeholder, textarea::placeholder{
+            color: $grisclaro;
+        }
+        button:hover{
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
