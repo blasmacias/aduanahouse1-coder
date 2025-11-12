@@ -45,7 +45,7 @@ main .sectionIndex div .imgflex {
   margin: 40px;
 }
 main .sectionIndex div .imgflex img {
-  width: 330px;
+  width: 250px;
   border-radius: 20px;
 }
 main .sectionIndex div .contenedor {
@@ -148,9 +148,7 @@ main .sectionIndex div .textomobile {
   font-size: 1.1rem;
   margin-bottom: 25px;
 }
-.contactMain {
-  /* FORMULARIO */
-}
+
 .contactMain .contactForm {
   width: 100%;
   max-width: 460px;
@@ -286,9 +284,7 @@ html, body {
   body header .logo {
     width: 50px;
   }
-  body {
-    /* TITULO INDEX------ */
-  }
+ 
   body main .contenedorIndex {
     height: 500px;
   }
@@ -323,18 +319,14 @@ html, body {
   body main .sectionIndex div .textomobile {
     display: block;
   }
-  body main {
-    /* SUCURSALES*/
-  }
+ 
   body main .sucurMain .titulosMain h1 {
     font-size: 2rem;
   }
   body main .sucurMain .titulosMain h2 {
     font-size: 1.5rem;
   }
-  body main .sucurMain {
-    /* ---------- BLOQUE ---------- */
-  }
+ 
   body main .sucurMain .bloque {
     width: 100%;
     max-width: 600px;
@@ -416,18 +408,14 @@ html, body {
   body main .sectionIndex div .textomobile {
     display: block;
   }
-  body main {
-    /* SUCURSALES*/
-  }
+ 
   body main .sucurMain .titulosMain h1 {
     font-size: 3rem;
   }
   body main .sucurMain .titulosMain h2 {
     font-size: 2.5rem;
   }
-  body main {
-    /* ---------- BLOQUE ---------- */
-  }
+  
   body main .bloque {
     width: 90%;
     max-width: 900px;
@@ -447,9 +435,7 @@ html, body {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   }
-  body main .bloque {
-    /* Carousel */
-  }
+ 
   body main .bloque .carousel {
     flex: 1;
     height: 320px;
@@ -471,9 +457,7 @@ html, body {
     object-position: center;
     border-radius: 20px;
   }
-  body main .bloque {
-    /* Texto */
-  }
+
   body main .bloque .texto {
     flex: 1;
     text-align: left;
