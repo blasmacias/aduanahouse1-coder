@@ -24,6 +24,7 @@
         main{
             .contenedorIndex{
                 height: 500px;
+
                 .tituloAduana{
                     font-size: 4.0rem;
                     margin-left: 40px;
@@ -35,6 +36,7 @@
                 }   
             }
             .sectionIndex{
+                
                 .texto1{
                     line-height: 1.0;
                 }
@@ -76,6 +78,7 @@
                     }  
                 }
                     /* ---------- BLOQUE ---------- */
+
                     .bloque {
                         width: 100%;
                         max-width: 600px;
@@ -130,7 +133,7 @@
                 }
             }
 
-        }
+     }
 
 }
 

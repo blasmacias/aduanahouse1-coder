@@ -43,6 +43,7 @@ main .sectionIndex div .imgflex {
   display: flex;
   justify-content: space-evenly;
   margin: 40px;
+  padding: 20px;
 }
 main .sectionIndex div .imgflex img {
   width: 350px;
@@ -194,7 +195,7 @@ main .sectionIndex div .textomobile {
 .contactMain .contactForm input::placeholder, .contactMain .contactForm textarea::placeholder {
   color: #7b7a7a;
 }
-.contactMain .contactForm button:hover {
+.contactMain .contactForm:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
