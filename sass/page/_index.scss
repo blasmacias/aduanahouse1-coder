@@ -6,43 +6,9 @@
 
 
 // INDEX
-/* -------------- HEADER */
 
-body{
-    background-color: $blanco;
-    height: 0;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 
-    // HEADER
-    header{
-        background-color: $negro;
-        position: fixed;
-        z-index: 1000;
-        width: 100%;
-        nav{
-            div{
-                .logo{
-                    width: 60px;
-                    border-radius: 50px;      
-                }
-                div{
-                    .nav{
-                        .nav-link{
-                            color: $blanco;
-                            font-size: 1.2rem;
-                        }    
-                        .nav-link:hover {
-                            color: $verdemast;
-                        }
-                    }
-                }
-            }
-        }
-    }
+
         main{
             background-color: $gris ;
             margin: 0;
@@ -73,7 +39,7 @@ body{
             }
 
             .sectionIndex{
-                background-color: $grisindex;
+                background-color: $gris;
                 color: $blanco;
                 padding: 50px;
                 font-size: 1.3rem;
@@ -102,6 +68,10 @@ body{
                             object-fit: cover;
                             border-radius: 20px;
                             margin: 30px;
+                            transition: 2s;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
                         }
                     }
                     .textomobile{
@@ -111,4 +81,4 @@ body{
             }
         }   
      
-}
+
